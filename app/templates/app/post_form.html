@@ -1,0 +1,17 @@
+{% extends 'app/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group" style="margin-top: 50px;">
+                <legend class="border-bottom mb-4 textalignright">Tworzenie pytania</legend>
+                {{form|crispy}}
+            </fieldset>
+
+
+                <div class="textalignright">
+            <button class="btn btn-warning" type="submit">Dodaj pytanie</button>
+            </div>
+        </form>
+    </div>
+{% endblock content %}
