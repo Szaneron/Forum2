@@ -11,6 +11,11 @@ services:
       - "8000:8000"
     depends_on:
       - pgdb
+    environment:
+      - SECRET_NAME=postgres
+      - SECRET_USER=postgres
+      - SECRET_PASSWORD=postgres
+      - SECRET_KEY=test
   pgdb:
     image: postgres
     container_name: pgdb
