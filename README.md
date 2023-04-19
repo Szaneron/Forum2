@@ -13,17 +13,17 @@ The project should include functionalities that allow for integration of the ass
 * Ability to add short questions.
 
 ### Functionalities:
-* Dodawanie projektów
-* Edycja projektów
-* Dodawanie komentarzy do projektów
-* Dodawanie pytań
-* Edycja pytań
-* Dodawanie odpowiedzi do pytań
-* System polubień projektów
-* Wyszukiwanie projektów
-* Prezentowanie 4 najnowszych projektów na stronie głównej
-* Prezentowanie 3 najnowszych pytań na stronie głównej
-* Paginacja stron
+* Adding projects
+* Editing projects
+* Adding comments to projects
+* Adding questions
+* Editing questions
+* Adding answers to questions
+* Projects liking system
+* Project search
+* Presenting 4 latest projects on the homepage
+* Presenting 3 latest questions on the homepage
+* Pagination of pages
 
 ## Service interface:
 <details> <summary> Home screen </summary>
