@@ -119,8 +119,7 @@ pip install django-ckeditor-5
 ## Application launch process (step by step)
 The project was created using the PyCharm IDE. To run it, simply import the project and set the run configuration to "Django Server" application.
 
-To install all the required libraries, use the requriments.txt file and enter the following fragment into the terminal of our ide.
-
+To install all the required libraries, use the requriments.txt file and enter the following fragment into the terminal of our ide.\
 ```pip install -r requirements.txt```
 
 
