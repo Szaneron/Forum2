@@ -1,4 +1,4 @@
-#Internet forum
+# Internet forum
 
 ## Purpose of the project:
 The goal of the project is to design an internet forum. The website is to be created by the community, not just by one author - the forum owner.
